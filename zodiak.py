@@ -22,7 +22,7 @@ def is_years(year):
         res = (year % 12) - 8
     # if res < 0:
     # res -= 1
-    return years[res]
+    return years[res] # проверка
 
 
 print(is_years(year))
